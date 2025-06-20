@@ -31,7 +31,7 @@ for animal in Animales:
 
 
 for animal in Animales:
-    cambio_especie = input("Desea cambiar la especie de " + animal.especie + "?(s/n)\n")
+    cambio_especie = input("Desea cambiar la especie " + animal.especie + "?(s/n)\n")
     if cambio_especie == "s":
         nueva_especie = input("Ingrese el nombre nuevo \n")
         animal.cambiar_especie(nueva_especie)
